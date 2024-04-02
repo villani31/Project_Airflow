@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "project-airflow"
+version = "0.1.0"
+description = ""
+authors = ["villani31 <iamthiagovillani@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11.5,<3.12"
+requests = "^2.31.0"
+python-dotenv = "^1.0.1"
+pandas = "^2.2.1"
+apache-airflow = "^2.8.4"
+sqlalchemy = "1.4.28"
+pymysql = "^1.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
